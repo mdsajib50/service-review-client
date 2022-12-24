@@ -1,0 +1,75 @@
+[
+    {
+        "service_id": "01",
+        "title": "Anxiety Treatment",
+        "img": "https://kits.pixel-show.com/therapia/wp-content/uploads/sites/16/2020/04/woman-relaxing-during-psychology-therapy-SPNDSFX-1536x1024.jpg",
+        "price": "20.00",
+        "description": "You may start by seeing your primary care provider to find out if your anxiety could be related to your physical health. He or she can check for signs of an underlying medical condition that may need treatment.However, you may need to see a mental health specialist if you have severe anxiety. A psychiatrist is a medical doctor who specializes in diagnosing and treating mental health conditions. A psychologist and certain other mental health professionals can diagnose anxiety and provide counseling (psychotherapy).The two main treatments for anxiety disorders are psychotherapy and medications. You may benefit most from a combination of the two. It may take some trial and error to discover which treatments work best for you."
+    },
+    {
+        "service_id": "02",
+        "title": "Couples Therapy",
+        "img": "https://kits.pixel-show.com/therapia/wp-content/uploads/sites/16/2020/04/senior-couple-in-therapy-MAEK297-1536x1025.jpg",
+        "price": "20.00",
+        "description": "Couples therapy is a form of psychotherapy that can help you and your partner improve your relationship. If you are having relationship difficulties, you can seek couples therapy to help rebuild your relationship. Couples therapy can address a wide range of relationship issues, including recurring conflicts, feelings of disconnection, an affair, issues related to sex, or difficulties due to external stressors, says Brian Mueller, PhD, a psychologist at Columbia University Medical Center who specializes in couples therapy.Couples therapy can help you at any stage of your relationship, regardless of marital status age race faith or sexual orientation. Some forms of this therapy include marriage counseling, premarital counseling, and family therapy. It is typically a short-term form of therapy."
+       
+    },
+    {
+        "service_id": "03",
+        "title": "Family Practice",
+        "img": "https://kits.pixel-show.com/therapia/wp-content/uploads/sites/16/2020/04/psychologist-listening-to-anxiety-of-married-woman-AESNHGL-1536x1024.jpg",
+        "price": "150.00",
+        "description": "Family medicine is a medical specialty within primary care that provides continuing and comprehensive health care for the individual and family across all ages, genders, diseases, and parts of the body. The specialist, who is usually a primary care physician, is named a family physician.Family medicine is a medical specialty within primary care that provides continuing and comprehensive health care for the individual and family across all ages, genders, diseases, and parts of the body. The specialist, who is usually a primary care physician, is named a family physician."
+       
+    },
+    {
+        "service_id": "04",
+        "title": "Depression Therapy",
+        "img": "https://kits.pixel-show.com/therapia/wp-content/uploads/sites/16/2020/04/psychologist-consulting-patient-in-office-PQGJLSK-1536x1024.jpg",
+        "price": "30.00",
+        "description": "Depression can show up in children and adolescents as prolonged periods of unhappiness or irritability. It is quite common among older children and teenagers, but often goes unrecognized. Some children might say they feel “unhappy” or “sad”. Others might say they want to hurt or even kill themselves. Children and adolescents who experience depression are at greater risk of self-harm, so such responses should always be taken seriously. Just because a child seems sad, it doesn't necessarily mean they have depression. But if the sadness becomes persistent or interferes with normal social activities, interests, schoolwork or family life, it may mean they need support from a mental health professional. Remember, only a doctor or a mental health professional can diagnose depression, so don’t hesitate to ask your health-care provider for advice if you are worried about your child.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        "service_id": "06",
+        "title": "Electrical System",
+        "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
+        "price": "20.00",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    }
+]
