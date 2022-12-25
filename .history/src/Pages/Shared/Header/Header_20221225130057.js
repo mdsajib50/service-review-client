@@ -22,13 +22,10 @@ const Header = () => {
                     <Nav.Link href="#action1">Home</Nav.Link>
                     <Nav.Link href="/service">Service</Nav.Link>
                     
+                  </Nav>
                     <Nav.Link href="/about">
                       About
                     </Nav.Link>
-                    <Nav.Link href="/blog">
-                      Blog
-                    </Nav.Link>
-                  </Nav>
                 </Navbar.Collapse>
               </Container>
             </Navbar>

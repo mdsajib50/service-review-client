@@ -22,13 +22,19 @@ const Header = () => {
                     <Nav.Link href="#action1">Home</Nav.Link>
                     <Nav.Link href="/service">Service</Nav.Link>
                     
-                    <Nav.Link href="/about">
+                    <Nav.Link href="/">
                       About
                     </Nav.Link>
-                    <Nav.Link href="/blog">
-                      Blog
-                    </Nav.Link>
                   </Nav>
+                  <Form className="d-flex">
+                    <Form.Control
+                      type="search"
+                      placeholder="Search"
+                      className="me-2"
+                      aria-label="Search"
+                    />
+                    <Button variant="outline-success">Search</Button>
+                  </Form>
                 </Navbar.Collapse>
               </Container>
             </Navbar>
