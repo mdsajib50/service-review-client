@@ -6,8 +6,8 @@ const Contact = () => {
             <div className="hero-content text-center">
                 <div className="max-w-md">
                 <h1 className="text-5xl font-bold">Contact</h1>
-                <p className="py-6 font-bold text-4xl">I'm Here For You <br/>24 Hours A Day, 7 Days A Week</p>
-                <button className="btn btn-primary font-semibold text-2xl">1-3456768-7677</button>
+                <p className="py-6">I'm Here For You24 Hours A Day, 7 Days A Week</p>
+                <button className="btn btn-primary">Get Started</button>
                 </div>
             </div>
         </div>

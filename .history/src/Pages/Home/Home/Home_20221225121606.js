@@ -6,7 +6,7 @@ const Home = () => {
         <div>
            
            <Services></Services>
-           <Contact></Contact>
+           <Contact
         </div>
     );
 };
