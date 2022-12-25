@@ -26,7 +26,7 @@ const ServiceCard = ({service}) => {
         <p className='text-left font-semibold'><span className='text-orange-400 font-bold'>Price:</span> ${price}</p>
         <p className='text-ellipsis'>{`${description.substring(0,99)} ...`}</p>
         <div className="card-actions justify-end">
-          <Link to={`/servicedetails/${_id}`}><button className="btn btn-primary">Details</button></Link>
+          <Link to={`/servicedeta`}><button className="btn btn-primary">Details</button></Link>
         </div>
       </div>
     </div>

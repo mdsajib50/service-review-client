@@ -1,15 +1,12 @@
 import React from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
-import { Link } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 
-
-
-const ServiceCard = ({service}) => {
-    console.log(service)
-    const {_id, img, title, description, price} = service
+const ServiceDetails = () => {
+    const {_id, title, img, description,price}= useLoaderData()
     return (
-            
-      <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        
+            <div className="card card-compact w-1/2 mx-auto my-4 bg-base-100 shadow-xl">
       <figure>
       <PhotoProvider>
       <div className="foo">
@@ -22,15 +19,16 @@ const ServiceCard = ({service}) => {
     </PhotoProvider>
         </figure>
       <div className="card-body">
-        <h2 className="card-title">{title}</h2>
+        <h2 className="card-title text">{title}</h2>
         <p className='text-left font-semibold'><span className='text-orange-400 font-bold'>Price:</span> ${price}</p>
-        <p className='text-ellipsis'>{`${description.substring(0,99)} ...`}</p>
+        <p className='text-xl'>{description}</p>
         <div className="card-actions justify-end">
-          <Link to={`/servicedetails/${_id}`}><button className="btn btn-primary">Details</button></Link>
+          <Link to='/service'><button className="btn btn-primary">Back</button></Link>
         </div>
       </div>
     </div>
+        
     );
-}
+};
 
-export default ServiceCard;
+export default ServiceDetails;
