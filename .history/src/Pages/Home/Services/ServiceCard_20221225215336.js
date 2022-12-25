@@ -5,18 +5,18 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 const ServiceCard = ({service}) => {
     console.log(service)
-    const {_id, img, title, description, price} = service
+    const {img, title, description, price} = service
     return (
             
       <div className="card card-compact w-96 bg-base-100 shadow-xl">
       <figure>
       <PhotoProvider>
       <div className="foo">
-        
-          <PhotoView key={_id} src={img}>
-            <img src={img} alt="" />
+        {images.map((item, index) => (
+          <PhotoView key={index} src={item}>
+            <img src={item} alt="" />
           </PhotoView>
-        
+        ))}
       </div>
     </PhotoProvider>
         </figure>

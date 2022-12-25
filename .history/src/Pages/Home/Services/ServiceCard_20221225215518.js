@@ -13,7 +13,7 @@ const ServiceCard = ({service}) => {
       <PhotoProvider>
       <div className="foo">
         
-          <PhotoView key={_id} src={img}>
+          <PhotoView key={_id} src={item}>
             <img src={img} alt="" />
           </PhotoView>
         

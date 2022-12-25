@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import ServiceCard from './ServiceCard';
-import { Link } from "react-router-dom";
 
 const Services = () => {
     const [services,  setServices] = useState([]);
@@ -13,14 +12,14 @@ const Services = () => {
     return (
        <div>
             <div><h1>Service</h1></div>
-        <div className='my-12 ml-16 grid gap-6 grid-cols-1 md:grid-cols-2  lg:grid-cols-3'>
+        <div className='mt-12 ml-16 grid gap-6 grid-cols-1 md:grid-cols-2  lg:grid-cols-3'>
            
                   {
                       services.map(service => <ServiceCard key={service.id} service={service}></ServiceCard>)
                   }
             
         </div>
-        <button className="btn btn-info m-2"><Link className='font-semibold text-lg text-white text no-underline' to='/service'>See All</Link></button>
+        <button className="btn btn-info">Info</button>
     </div>
     );
 }
