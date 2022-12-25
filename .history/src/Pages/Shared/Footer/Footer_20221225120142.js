@@ -6,9 +6,8 @@ const Footer = () => {
   <div className="grid grid-flow-col gap-4">
     <a className="link link-hover">Home</a> 
     <a className="link link-hover">About us</a> 
-    <a className="link link-hover">Contact</a> 
-    <a className="link link-hover">Blog</a> 
   </div> 
+    <a className="link link-hover">Contact</a> 
   <div>
     <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
   </div>

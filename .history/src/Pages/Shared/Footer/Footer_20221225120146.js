@@ -7,7 +7,7 @@ const Footer = () => {
     <a className="link link-hover">Home</a> 
     <a className="link link-hover">About us</a> 
     <a className="link link-hover">Contact</a> 
-    <a className="link link-hover">Blog</a> 
+    <a className="link link-hover">Contact</a> 
   </div> 
   <div>
     <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
