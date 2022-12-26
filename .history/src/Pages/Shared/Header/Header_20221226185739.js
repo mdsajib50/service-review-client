@@ -29,7 +29,7 @@ const Header = () => {
                       Blog
                     </Nav.Link>
                     <Nav.Link href="/login">
-                      Login
+                      Log
                     </Nav.Link>
                   </Nav>
                 </Navbar.Collapse>

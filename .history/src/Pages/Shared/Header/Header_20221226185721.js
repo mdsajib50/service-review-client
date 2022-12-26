@@ -28,8 +28,8 @@ const Header = () => {
                     <Nav.Link href="/blog">
                       Blog
                     </Nav.Link>
-                    <Nav.Link href="/login">
-                      Login
+                    <Nav.Link href="/blog">
+                      Blog
                     </Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
