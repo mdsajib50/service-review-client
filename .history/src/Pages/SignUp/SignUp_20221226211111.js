@@ -1,10 +1,9 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import signup from '../../assets/signup.png';
-import {AuthContext} from '../../context/AuthProvider/AuthProvider';
+
 
 const SignUp = () => {
-    const {createUser} = useContext(AuthContext)
     const handelSignUp = e =>{
         e.preventDefault()
         const form = e.target;
@@ -27,7 +26,7 @@ const SignUp = () => {
                     <img src={signup} alt="" srcset=""/>
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-lg shadow-2xl py-14">
-                    <form onSubmit={handelSignUp} className="card-body">
+                    <form className="card-body">
                         <h1 className="text-5xl font-bold text-center">Sign Up</h1>
                         <div className="form-control">
                         <label className="label">

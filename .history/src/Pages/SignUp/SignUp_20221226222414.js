@@ -27,7 +27,7 @@ const SignUp = () => {
                     <img src={signup} alt="" srcset=""/>
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-lg shadow-2xl py-14">
-                    <form onSubmit={handelSignUp} className="card-body">
+                    <form onSubmit={had} className="card-body">
                         <h1 className="text-5xl font-bold text-center">Sign Up</h1>
                         <div className="form-control">
                         <label className="label">
