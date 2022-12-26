@@ -49,7 +49,7 @@ const Review = ({service}) => {
             <time className="text-xs opacity-50">12:45</time>
         </div>
         {
-            reviews.map(review => <div key={review._id} className="chat-bubble">{review.message}</div>)
+            revi
         }
             <div className="chat-footer opacity-50">
                 Delivered

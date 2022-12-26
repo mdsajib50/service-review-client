@@ -32,8 +32,6 @@ const Review = ({service}) => {
         }
         useEffect(()=>{
             fetch('http://localhost:5000/reviews')
-            .then(res => res.json())
-            .then(data => setReviews(data))
         },[])
     
     return (
@@ -48,9 +46,7 @@ const Review = ({service}) => {
             Obi-Wan Kenobi
             <time className="text-xs opacity-50">12:45</time>
         </div>
-        {
-            reviews.map(review => <div key={review._id} className="chat-bubble">{review.message}</div>)
-        }
+        <div className="chat-bubble">You were the Chosen One!</div>
             <div className="chat-footer opacity-50">
                 Delivered
             </div>
