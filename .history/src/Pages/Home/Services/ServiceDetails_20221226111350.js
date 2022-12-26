@@ -4,9 +4,8 @@ import { Link, useLoaderData } from 'react-router-dom';
 import Review from '../Review/Review';
 
 const ServiceDetails = () => {
-    const service = useLoaderData();
-    console.log(service)
-    const {_id, img, title, description, price} = service
+    const {service}= useLoaderData();
+    const {_id, img, title, description}
     return (
         <>
             <div className="card card-compact w-1/2 mx-auto mt-4 mb-10 bg-base-100 shadow-xl">

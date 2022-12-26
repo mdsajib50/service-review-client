@@ -1,0 +1,58 @@
+import React from 'react';
+
+const Review = ({service}) => {
+    const {_id}= service;
+    console.log(service);
+    const handelReview = (e) =>{
+        e.preventDefault()
+        const form = e.target;
+        const message = form.mea.value;
+        const review ={
+            review: _id,
+            message: review
+        }
+
+        fetch('http://localhost:5000/reviews',{
+            method: 'POST',
+            headers:{
+                'content-type':'application/json'
+            },
+            body: JSON.stringify(review)
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data)
+            if (data.acknowledged) {
+                alert('Order Placed Successfully')
+                form.reset()
+            }
+        })
+        .catch(err => console.error(err))
+        })
+    }
+    return (
+        <div>
+            <div className="chat chat-start">
+        <div className="chat-image avatar">
+            <div className="w-10 rounded-full">
+            <img src="https://placeimg.com/192/192/people" />
+            </div>
+        </div>
+        <div className="chat-header">
+            Obi-Wan Kenobi
+            <time className="text-xs opacity-50">12:45</time>
+        </div>
+        <div className="chat-bubble">You were the Chosen One!</div>
+            <div className="chat-footer opacity-50">
+                Delivered
+            </div>
+        </div>
+        <form onSubmit={handelReview}>
+        <textarea name='review' className="textarea textarea-accent" placeholder="Write Your Review"></textarea>
+        <button className="btn btn-outline btn-success">Submit</button>
+        </form>
+    </div>
+    );
+};
+
+export default Review;
