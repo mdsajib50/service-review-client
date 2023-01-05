@@ -11,7 +11,7 @@ const ReviewUpdate = () => {
     const handelUpdate = (e) =>{
         e.preventDefault();
         
-        fetch(`http://localhost:5000/reviews/${_id}`, {
+        fetch(`https://service-review-server-ebon.vercel.app/reviews/${_id}`, {
                 method: 'PUT',
                 headers:{
                     'content-type':'application/json'

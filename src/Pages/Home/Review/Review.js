@@ -23,7 +23,7 @@ const Review = ({service}) => {
             created_date: new Date()
         }
 
-        fetch('http://localhost:5000/reviews',{
+        fetch('https://service-review-server-ebon.vercel.app/reviews',{
             method: 'POST',
             headers:{
                 'content-type':'application/json'
@@ -41,7 +41,7 @@ const Review = ({service}) => {
         .catch(err => console.error(err))
         }
         useEffect(()=>{
-            fetch('http://localhost:5000/reviews')
+            fetch('https://service-review-server-ebon.vercel.app/reviews')
             .then(res => res.json())
             .then(data => {
                 const reviewId =data.filter(review => review.review_id === _id)

@@ -17,7 +17,7 @@ const Addservice = () => {
           description
       }
 
-      fetch('http://localhost:5000/service',{
+      fetch('https://service-review-server-ebon.vercel.app/service',{
 
           method: 'POST',
           headers:{

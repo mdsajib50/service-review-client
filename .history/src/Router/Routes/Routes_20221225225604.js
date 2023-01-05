@@ -28,7 +28,7 @@ const router = createBrowserRouter([
         },
         {
           path: '/servicedetails/:id',
-          loader:({params})=> fetch(`http://localhost:5000/service/${params.id}`),
+          loader:({params})=> fetch(`https://service-review-server-ebon.vercel.app/service/${params.id}`),
           element: <S
         }
       ]

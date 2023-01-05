@@ -14,7 +14,7 @@ const MyReview = () => {
     
     useTitle('my-review')
     useEffect(()=>{
-        fetch(`http://localhost:5000/myreviews?email=${user?.email}`,{
+        fetch(`https://service-review-server-ebon.vercel.app/myreviews?email=${user?.email}`,{
             headers: {
                 authorization: `Bearer ${localStorage.getItem('token')}`
             }
@@ -34,7 +34,7 @@ const MyReview = () => {
     const handelDelete = _id =>{
         const proceed = window.confirm('Are you sure, Delete this Review');
         if (proceed) {
-            fetch(`http://localhost:5000/reviews/${_id}`, {
+            fetch(`https://service-review-server-ebon.vercel.app/reviews/${_id}`, {
                 method: 'DELETE'
             })
             .then(res => res.json())

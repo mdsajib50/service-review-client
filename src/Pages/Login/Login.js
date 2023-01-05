@@ -28,7 +28,7 @@ const Login = () => {
                 email: user.email
             }
             //get jwt token
-            fetch('http://localhost:5000/jwt',{
+            fetch('https://service-review-server-ebon.vercel.app/jwt',{
                 method:'POST',
                 headers:{
                     'content-type': 'application/json'
@@ -56,7 +56,7 @@ const Login = () => {
                 email: user.email
             }
             //get jwt token
-            fetch('http://localhost:5000/jwt',{
+            fetch('https://service-review-server-ebon.vercel.app/jwt',{
                 method:'POST',
                 headers:{
                     'content-type': 'application/json'
